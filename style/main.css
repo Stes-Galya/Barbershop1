@@ -280,39 +280,37 @@ body {
 }
 @media screen and (min-width: 720px) {
   .best {
-    padding: 100px 100px;
-  }
-}
-.best__foto {
-  width: 270px;
-  height: 445px;
-  flex-shrink: 0;
-}
-@media screen and (min-width: 448px) {
-  .best__foto {
-    width: 330px;
-    height: 235px;
-    flex-shrink: 0;
+    padding: 84px 31px 84px 31px;
   }
 }
 .best__item {
   color: #303030;
-  margin-right: 30px;
   font-family: "Open Sans";
   font-size: 11px;
   font-style: normal;
   line-height: normal;
   text-transform: uppercase;
+  margin-right: 30px;
+  display: none;
 }
 @media screen and (min-width: 448px) {
   .best__item {
-    display: none;
+    display: block;
   }
 }
 .best__foto {
-  width: 900px;
-  height: 445px;
+  width: 330px;
+  height: 235px;
   flex-shrink: 0;
+  display: block;
+}
+@media screen and (min-width: 448px) {
+  .best__foto {
+    width: 900px;
+    height: 445px;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
 }
 .best__title {
   width: 470px;
