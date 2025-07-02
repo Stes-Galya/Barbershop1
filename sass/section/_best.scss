@@ -105,11 +105,7 @@ font-weight: 600;
 line-height: normal;
 text-transform: uppercase;
 justify-content: end;
-  @media screen and  (min-width:448px) {
-      width: 418px;
-height: 156px;
-flex-shrink: 0;
-    }
+ 
 }
 &__want{
      margin-bottom: 20px;

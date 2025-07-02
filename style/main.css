@@ -355,13 +355,6 @@ body {
   text-transform: uppercase;
   justify-content: end;
 }
-@media screen and (min-width: 448px) {
-  .best__items {
-    width: 418px;
-    height: 156px;
-    flex-shrink: 0;
-  }
-}
 .best__want {
   margin-bottom: 20px;
   color: #555;
