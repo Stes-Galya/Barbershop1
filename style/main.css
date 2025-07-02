@@ -292,6 +292,8 @@ body {
   text-transform: uppercase;
   margin-right: 30px;
   display: none;
+  flex-direction: column;
+  gap: 30px;
 }
 @media screen and (min-width: 448px) {
   .best__item {
@@ -299,16 +301,18 @@ body {
   }
 }
 .best__foto {
-  width: 330px;
-  height: 235px;
+  width: 100%;
+  height: 100%;
   flex-shrink: 0;
   display: block;
+  flex-direction: row;
 }
 @media screen and (min-width: 448px) {
   .best__foto {
     width: 900px;
     height: 445px;
-    flex-direction: column;
+    -moz-column-gap: 30px;
+         column-gap: 30px;
     flex-shrink: 0;
   }
 }
@@ -350,6 +354,13 @@ body {
   line-height: normal;
   text-transform: uppercase;
   justify-content: end;
+}
+@media screen and (min-width: 448px) {
+  .best__items {
+    width: 418px;
+    height: 156px;
+    flex-shrink: 0;
+  }
 }
 .best__want {
   margin-bottom: 20px;
