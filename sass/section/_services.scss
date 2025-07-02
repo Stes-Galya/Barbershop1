@@ -1,0 +1,76 @@
+.services{
+     @media screen and (min-width: 720px) {
+
+        padding-bottom: 84px;
+       
+    }
+
+    @media screen and (min-width: 1200px) {
+     
+        padding-bottom: 129px;
+    }
+    &____subtitle{
+        color: $service-title;
+
+font-family: "Open Sans";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 0.7; /* 142.857% */
+letter-spacing: 0.28px;
+    }
+    &__description{
+margin-bottom: 20px;
+color: rgba(157, 164, 189, 0.60);
+font-family: "Open Sans";
+font-size: 11px;
+font-style: normal;
+font-weight: 600;
+line-height: 1.36;
+text-transform: uppercase;
+    }
+    &__title{
+margin-bottom: 44px;
+color:$fon-color;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.75;
+letter-spacing: 2px;
+    }
+    &__list{
+        margin-bottom: 30px;
+        margin-top: 30px;
+        color:$service-title;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.4;
+letter-spacing: 2px;
+    }
+    &__item{
+display: flex;
+margin-bottom: 20px;
+    }
+    &__button{
+   color: $fon-color;
+font-family: "Open Sans";
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 1.3;
+letter-spacing: 1.08px;
+text-transform: uppercase;
+    }
+    &__bt{
+        width: 160px;
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+    border-radius: 25px;
+border: 1px solid #FF6C00;
+    }
+
+}
