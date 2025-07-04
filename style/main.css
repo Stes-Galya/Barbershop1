@@ -404,7 +404,27 @@ body {
     padding-bottom: 129px;
   }
 }
-.services____subtitle {
+.services__description {
+  color: rgba(157, 164, 189, 0.6);
+  font-family: "Open Sans";
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.services__description::before {
+  content: "";
+  width: 60px;
+  height: 1px;
+  background-color: rgba(157, 164, 189, 0.6);
+  display: block;
+}
+.services__subtitle {
   color: #9DA4BD;
   font-family: "Open Sans";
   font-size: 14px;
@@ -456,6 +476,7 @@ body {
   font-weight: 400;
   line-height: 1.42;
   letter-spacing: 0.28px;
+  order: 1;
 }
 @media screen and (min-width: 720px) {
   .services__price {
@@ -466,6 +487,17 @@ body {
 .services__item {
   display: flex;
   margin-bottom: 20px;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.services__item::after {
+  content: "";
+  flex-grow: 1;
+  background-color: #9DA4BD;
+  margin: 0 12px;
+  width: 136px;
+  height: 1px;
 }
 .services__button {
   color: #FFF;
